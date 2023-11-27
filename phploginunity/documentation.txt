@@ -1,0 +1,24 @@
+Códigos de respuesta:
+	200 : Conectado correctamente
+	201 : Usuario creado correctamente
+	202 : El usuario existe en el sistema
+	203 : El usuario NO existe en el sistema
+	204 : El usuario o la contrasena son incorrectos
+	205 : Inicio de sesion correcto
+	206 : Usuario editado con exito
+	207 : Puntuacion actualizada con exito
+	208 : Puntuacion no actualizada
+
+	400 : Error intentando conectar
+	401 : Error intentando crear el usuario
+	402 : Faltan datos para ejecutar la accion solicitada
+	404 : Error
+
+
+
+Usos de las funcionalidades
+	reg_user(usuario, contrasena)
+	verify_user(usuario)
+	login(usuario, contrasena)
+	edit_user(usuario, contrasena, contrasena2)
+	update_user(usuario, puntuacion)
